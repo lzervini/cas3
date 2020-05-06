@@ -215,5 +215,70 @@ h3{
 /* Media Queries MOBILE PAYSAGE*/
 @media only screen and (orientation: landscape) and (max-width: 767.98px){
 
+    
+    body{
+        font-size:0.6667rem;
+    }
+
+    .marginpage{
+        margin: 2rem;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box50{
+        width: auto;
+    }   
+
+    ul{
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 1.6667rem;
+    }
+
+    .font-17{
+        font-size: 1rem;
+    }
+
+    .padserv{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .font36{
+        font-size: 1.7167rem;
+    }
+
+    .none-mobileport{
+        display: none;
+    }
+
+    .paddingart{
+        padding-top: 3.25rem;
+    }
+
+    #categories{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h3{
+        margin: 0 0 2rem 0;
+    }
+
+    .box23{
+        width: auto;
+        text-align: center;
+    }
 
 }
