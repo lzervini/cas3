@@ -4,18 +4,45 @@
 }
 
 body{
+    background:linear-gradient(to right, #09234B, #1C4689);
     font-family: 'Rubik';
     font-size: 16pt;
     color:#2D2E30;
+    padding: 0;
+}
+
+.marginpage{
     margin-left: 375px;
     margin-right: 375px;
-    padding: 0;
 }
 
 .m_icons{
     font-family:"MaterialIcons";
 }
 
+
 hr{
     color:#707070;
 }
+
+.listdeco{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+.box20{
+    box-sizing: border-box;
+    width: 20%;
+}
+
+.m_icons{
+    font-family:"MaterialIcons";
+}
+
+/* Flexbox */
