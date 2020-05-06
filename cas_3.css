@@ -96,7 +96,6 @@ a{
     padding-top: 10rem;
 }
 
-/*margin*/
 .paddingart{
     padding-top: 7.25rem;
 }
@@ -141,4 +140,50 @@ h1{
     border: 1px solid white;
     box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.05);
     padding: 1.625rem;     
+}
+
+/* Media Queries MOBILE PORTRAIT*/
+@media only screen and (orientation: portrait) and (max-device-width:600px){
+
+    body{
+        font-size:0.6667rem;
+    }
+
+    .marginpage{
+        margin: 2rem;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box50{
+    width: auto;
+    }   
+
+    ul{
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 1.6667rem;
+    }
+
+    .font-17{
+        font-size: 1rem;
+    }
+
+    .padserv{
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+
+
+
 }
