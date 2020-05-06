@@ -211,3 +211,9 @@ h3{
     }
 
 }
+
+/* Media Queries MOBILE PAYSAGE*/
+@media only screen and (orientation: landscape) and (max-width: 767.98px){
+
+
+}
