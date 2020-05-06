@@ -1,0 +1,21 @@
+@font-face {
+	font-family: "MaterialIcons";
+	src: url('police/MaterialIcons-Regular\ \(1\).ttf');
+}
+
+body{
+    font-family: 'Rubik';
+    font-size: 16pt;
+    color:#2D2E30;
+    margin-left: 375px;
+    margin-right: 375px;
+    padding: 0;
+}
+
+.m_icons{
+    font-family:"MaterialIcons";
+}
+
+hr{
+    color:#707070;
+}
