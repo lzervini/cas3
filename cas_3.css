@@ -5,15 +5,15 @@
 
 body{
     background:linear-gradient(to right, #09234B, #1C4689);
-    font-family: 'Rubik';
-    font-size: 16pt;
+    font-family: "Rubik";
+    font-size: 1.3333rem;
     color:#2D2E30;
     padding: 0;
 }
 
 .marginpage{
-    margin-left: 375px;
-    margin-right: 375px;
+    margin-left: 23.4375rem;
+    margin-right: 23.4375rem;
 }
 
 .m_icons{
@@ -36,14 +36,23 @@ a{
     color: white
 }
 
+
+.m_icons{
+    font-family:"MaterialIcons";
+}
+
+/*Boite */
 .box20{
     box-sizing: border-box;
     width: 20%;
 }
 
-.m_icons{
-    font-family:"MaterialIcons";
+.box50{
+    box-sizing: border-box;
+    width: 50%;
 }
+
+
 
 /* Flexbox */
 .flex{
@@ -57,3 +66,39 @@ a{
 .between{
     justify-content: space-between;
 }
+
+.end{
+    justify-content: flex-end;
+}
+
+
+/*padding*/
+
+.pad-l{
+    padding-left: 3rem;
+}
+
+/* style textes*/
+
+.whitetexte
+{color: white;
+    text-align: center;
+}
+
+h1{
+    font-size:5rem;
+    font-weight: 700;
+}
+
+.orange{
+    color: #FF8400
+}
+
+.font-17{
+    font-size: 1.4167rem;
+}
+
+/*background*/
+    .backwhite{
+        background-color: white;
+    }
