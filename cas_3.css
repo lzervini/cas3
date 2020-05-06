@@ -78,6 +78,11 @@ a{
     padding-left: 3rem;
 }
 
+.padserv{
+    padding-bottom: 10rem;
+    padding-top: 10rem;
+}
+
 /* style textes*/
 
 .whitetexte
@@ -88,6 +93,7 @@ a{
 h1{
     font-size:5rem;
     font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .orange{
@@ -96,9 +102,16 @@ h1{
 
 .font-17{
     font-size: 1.4167rem;
+    text-align: center;
+}
+
+.font36{
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
 }
 
 /*background*/
-    .backwhite{
-        background-color: white;
+.backwhite{
+    background-color: white;
     }
