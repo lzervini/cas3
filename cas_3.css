@@ -31,7 +31,7 @@ hr{
     color: white;
 }
 
-a{
+li >a{
     text-decoration: none;
     color: white
 }
@@ -113,6 +113,11 @@ h1{
     margin-bottom: 1rem;
 }
 
+h3{
+    font-size:1.6667rem;
+    font-weight: 500;
+}
+
 .orange{
     color: #FF8400
 }
@@ -160,7 +165,7 @@ h1{
     }
 
     .box50{
-    width: auto;
+        width: auto;
     }   
 
     ul{
@@ -183,7 +188,26 @@ h1{
         padding-top: 1rem;
     }
 
+    .font36{
+        font-size: 1.7167rem;
+    }
+
+    .none-mobileport{
+        display: none;
+    }
+
+    .paddingart{
+        padding-top: 3.25rem;
+    }
+
+    #categories{
+        text-align: center;
+    }
 
 
+
+    h3{
+        margin: 0 0 2rem 0;
+    }
 
 }
