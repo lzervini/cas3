@@ -46,3 +46,14 @@ a{
 }
 
 /* Flexbox */
+.flex{
+    display: flex;
+}
+
+.flex-center{
+    align-items: center;
+}
+
+.between{
+    justify-content: space-between;
+}
